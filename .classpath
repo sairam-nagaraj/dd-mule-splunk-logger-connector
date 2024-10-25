@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/test/java"/>
+	<classpathentry kind="lib" path="C:/AnypointStudio/plugins/org.mule.tooling.server.4.8.ee_7.19.0.202409251457/mule/lib/mule/mule-sdk-api-0.10.2.jar" sourcepath="C:/AnypointStudio/plugins/org.mule.tooling.server.4.8.ee_7.19.0.202409251457/mule/src/mule-runtime-distribution-sources-community-4.8.0.zip">
+		<accessrules>
+			<accessrule kind="nonaccessible" pattern="**/*"/>
+		</accessrules>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

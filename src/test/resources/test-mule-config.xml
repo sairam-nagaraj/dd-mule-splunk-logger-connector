@@ -1,0 +1,15 @@
+<mule xmlns="http://www.mulesoft.org/schema/mule/core"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:mule-splunk-logger="http://www.mulesoft.org/schema/mule/mule-splunk-logger"
+      xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+          http://www.mulesoft.org/schema/mule/mule-splunk-logger http://www.mulesoft.org/schema/mule/mule-splunk-logger/current/mule-mule-splunk-logger.xsd">
+
+    <mule-splunk-logger:config name="config" splunkUrl="splunkUrl" authToken="authToken" uri="uri" request="request" response="response">
+        <!--<mule-splunk-logger:connection requiredParameter="aValue" />-->clea
+    </mule-splunk-logger:config>
+
+    <flow name="logToSplunk">
+        <mule-splunk-logger:log-to-splunk config-ref="config"/>
+    </flow>
+
+</mule>
